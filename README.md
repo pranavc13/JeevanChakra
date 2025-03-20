@@ -1,9 +1,9 @@
-💡 Jeevan Chakra – Your 360° Healthcare Partner 🏥💙
+##💡 Jeevan Chakra – Your 360° Healthcare Partner 🏥💙
 🚀 Empowering Health, Enhancing Lives
 
 Jeevan Chakra is a comprehensive digital healthcare ecosystem designed to provide seamless healthcare solutions through technology. From AI-driven medical guidance to mental wellness support, we ensure that healthcare is accessible, efficient, and personalized for everyone.
 
-🔥 What I Learned from This Project
+##🔥 What I Learned from This Project
 Throughout the development of Jeevan Chakra, I explored:
 
 ✅ Full-Stack Development – Built an end-to-end system with ReactJS, Node.js, and MongoDB.
@@ -14,14 +14,14 @@ Throughout the development of Jeevan Chakra, I explored:
 ✅ RESTful APIs – Designed scalable APIs using Node.js & Express.js.
 ✅ UI/UX Best Practices – Created a clean and responsive Tailwind CSS UI.
 
-🚀 Project Features
-🏥 1. Doctor Appointment Booking
-👨‍⚕️ Patients can search, book, and track doctor appointments easily. Doctors get a dashboard to manage their consultations.
+##🚀 Project Features
+🏥##1. Doctor Appointment Booking
+ Patients can search, book, and track doctor appointments easily. Doctors get a dashboard to manage their consultations.
 
 🤖 2. AI-Powered Healthcare Chatbot
-🔍 Our AI Chatbot, powered by Gemini API, provides instant health insights, symptom analysis, and precautionary suggestions.
+  Our AI Chatbot, powered by Gemini API, provides instant health insights, symptom analysis, and precautionary suggestions.
 
-📊 3. BMI Calculator & Meal Planner
+ 3. BMI Calculator & Meal Planner
 🥗 Personalized diet plans based on your BMI calculations for a healthier lifestyle.
 
 💊 4. Pill Reminders & Online Medicine Booking
