@@ -65,25 +65,12 @@ Throughout the development of **Jeevan Chakra**, I explored:
 
 🎯 **This journey was an incredible learning experience, and we are excited to take Jeevan Chakra further to make a real-world impact!** 🌍💙  
 
----
 
-## 🏆 **Want to Contribute? Join Us!**  
-
-We welcome **open-source contributions**! Follow these steps to contribute:  
-
-1️⃣ **Fork** the repository  
-2️⃣ **Create** a new branch (`git checkout -b feature-name`)  
-3️⃣ **Commit** your changes (`git commit -m "Added a new feature"`)  
-4️⃣ **Push** to the branch (`git push origin feature-name`)  
-5️⃣ **Open a Pull Request**  
 
 ---
 
-## 📜 **License**  
 
-📝 Jeevan Chakra is open-source and licensed under the **MIT License**. Feel free to **use, modify, and distribute** it!  
 
----
 
 ## 🌟 **Support & Feedback**  
 
