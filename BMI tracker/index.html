@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeevan Chakra Health Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" href="bootstrap.min.css"> <!-- Local Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap-icons.css"> <!-- Local Bootstrap Icons -->
+</head>
+
+
+<body>
+    <div class="container py-4">
+        <div class="title-container">
+            <h1>Jeevan Chakra Health Tracker</h1>
+        </div>
+
+        <nav class="nav nav-pills nav-fill mb-4">
+            <button class="nav-link active" id="bmiTab">BMI Calculator</button>
+            <button class="nav-link" id="mealTab">Meal Planner</button>
+            <button class="nav-link" id="medsTab">Medications</button>
+        </nav>
+
+        <div id="bmiSection" class="tab-content active">
+            <div class="card">
+                <div class="card-body">
+                    <h3>BMI Calculator</h3>
+                    <div class="mb-3">
+                        <label class="form-label">Units</label>
+                        <select id="units" class="form-select">
+                            <option value="cm">Metric (cm/kg)</option>
+                            <option value="inches">Imperial (inches/lbs)</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Height</label>
+                        <input type="number" id="height" class="form-control" placeholder="Enter height">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Weight</label>
+                        <input type="number" id="weight" class="form-control" placeholder="Enter weight">
+                    </div>
+                    <button id="calculateBMI" class="btn btn-primary">Calculate BMI</button>
+
+                    <div id="bmiResult" class="mt-4 hidden">
+                        <h4>Your BMI: <span id="bmiValue"></span></h4>
+                        <p>Category: <span id="bmiCategory"></span></p>
+                        <div id="healthTips" class="mt-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="mealSection" class="tab-content">
+            <div class="card">
+                <div class="card-body">
+                    <h3>Meal Planner</h3>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h4>Breakfast</h4>
+                            <div id="breakfastPlan"></div>
+                        </div>
+                        <div class="col-md-4">
+                            <h4>Lunch</h4>
+                            <div id="lunchPlan"></div>
+                        </div>
+                        <div class="col-md-4">
+                            <h4>Dinner</h4>
+                            <div id="dinnerPlan"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="medsSection" class="tab-content">
+            <div class="card">
+                <div class="card-body">
+                    <h3>Medication Tracker</h3>
+                    <div class="mb-3">
+                        <label class="form-label">Medication Name</label>
+                        <input type="text" id="medName" class="form-control" placeholder="Enter medication name">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Time</label>
+                        <input type="time" id="medTime" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Frequency</label>
+                        <select id="medFrequency" class="form-select">
+                            <option value="Daily">Daily</option>
+                            <option value="Twice daily">Twice daily</option>
+                            <option value="Weekly">Weekly</option>
+                        </select>
+                    </div>
+                    <button id="addMed" class="btn btn-primary">Add Medication</button>
+
+                    <div id="medicationsList" class="mt-4"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
