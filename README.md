@@ -5,6 +5,9 @@
 Jeevan Chakra is a **comprehensive digital healthcare ecosystem** designed to provide **seamless healthcare solutions** through technology. From **AI-driven medical guidance** to **mental wellness support**, we ensure that healthcare is **accessible, efficient, and personalized** for everyone.  
 
 ---
+## 🎥 Demo Video
+
+[Watch Demo](https://drive.google.com/file/d/1VBAwenEbaadQ6y12IKUqBrciqQOzOQ4i/view?usp=sharing)
 
 ## 🔥 **What I Learned from This Project**  
 
@@ -52,16 +55,6 @@ Throughout the development of **Jeevan Chakra**, I explored:
 🔹 **Payments & Booking**: Razorpay/Stripe  
 
 ---
-
-## 👥 **Meet the Team Behind Jeevan Chakra** 🎉  
-
-💪 A **huge shoutout** to my amazing teammates for their dedication and teamwork:  
-
-👨‍💻 **Akshat Shrivastava** – Backend & AI Chatbot Development  
-👩‍💻 **Aarushi Chaddha** – Frontend UI/UX & Mental Health Module  
-👩‍💻 **Riya Mehta** – Doctor Dashboard & Appointments  
-👨‍💻 **Pranav Chaturvedi** – Database & API Integration  
-👩‍💻 **Aashi Raghuvanshi** – Medicine Booking & Reminders  
 
 🎯 **This journey was an incredible learning experience, and we are excited to take Jeevan Chakra further to make a real-world impact!** 🌍💙  
 
